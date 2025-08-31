@@ -1,0 +1,26 @@
+Daemon process terminated and closed the connection
+
+Messages from the log:
+(node:22588) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Time for '@nx/jest/plugin:createNodes' 3568.2965999999997
+Time for 'total for sendMessageToDaemon()' 142.79970000000003
+Time for 'deserialize daemon response' 0.2588999999998123
+(node:21744) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[NX v21.4.1 Daemon Server] - 2025-08-31T09:40:23.879Z - Closed a connection. Number of open connections: 5
+[NX v21.4.1 Daemon Server] - 2025-08-31T09:40:23.879Z - Closed a connection. Number of open connections: 4
+[NX v21.4.1 Daemon Server] - 2025-08-31T09:40:23.880Z - Closed a connection. Number of open connections: 3
+[NX v21.4.1 Daemon Server] - 2025-08-31T09:40:23.880Z - Closed a connection. Number of open connections: 2
+[NX v21.4.1 Daemon Server] - 2025-08-31T09:40:23.880Z - Closed a connection. Number of open connections: 1
+[NX v21.4.1 Daemon Server] - 2025-08-31T09:40:23.881Z - Closed a connection. Number of open connections: 0
+[NX v21.4.1 Daemon Server] - 2025-08-31T09:40:23.877Z - Started listening on: \\.\pipe\nx\C:\Users\hp\AppData\Local\Temp\d472dc668fb6ef9c0775\d.sock
+[NX v21.4.1 Daemon Server] - 2025-08-31T09:40:23.883Z - [WATCHER]: Stopping the watcher for C:\Users\hp\Desktop\my-monorepo (sources)
+[NX v21.4.1 Daemon Server] - 2025-08-31T09:40:23.885Z - [WATCHER]: Stopping the watcher for C:\Users\hp\Desktop\my-monorepo (sources)
+[NX v21.4.1 Daemon Server] - 2025-08-31T09:40:23.886Z - [WATCHER]: Stopping the watcher for C:\Users\hp\Desktop\my-monorepo (outputs)
+[NX v21.4.1 Daemon Server] - 2025-08-31T09:40:23.897Z - Server stopped because: "this process is no longer the current daemon (native)"
+[NX v21.4.1 Daemon Server] - 2025-08-31T09:40:23.910Z - [WATCHER]: Subscribed to changes within: c:\Users\hp\Desktop\my-monorepo (native)
+
+
+
+More information: c:\Users\hp\Desktop\my-monorepo\.nx\workspace-data\d\daemon.log
